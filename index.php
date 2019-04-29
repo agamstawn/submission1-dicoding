@@ -28,7 +28,7 @@
  <?php
     $host = "stawn-server.database.windows.net";
     $user = "stawn";
-    $pass = "agam59@dicodingazure";
+    $pass = "agam59@submission";
     $db = "stawnwebapp";
 
     try {
