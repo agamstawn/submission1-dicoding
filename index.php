@@ -32,7 +32,7 @@
         // If you use a free trial subscription key, you shouldn't need to change
         // this region.
         var uriBase =
-            "https://southeastasia.api.cognitive.microsoft.com/";
+            "https://southeastasia.api.cognitive.microsoft.com/vision/v2.0/analyze";
  
         // Request parameters.
         var params = {
@@ -77,7 +77,7 @@
         });
     };
 </script>
- 
+
 <h1>Analyze image:</h1>
 Enter the URL to an image, then click the <strong>Analyze image</strong> button.
 <br><br>
@@ -111,6 +111,7 @@ Image to analyze:
        <input type="submit" name="submit" value="Submit" />
        <input type="submit" name="load_data" value="Load Data" />
  </form>
+ 
  <?php
     $host = "stawn-server.database.windows.net";
     $user = "stawn";
